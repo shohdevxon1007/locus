@@ -81,13 +81,64 @@ nav .nav-btn {
     padding: 15px 50px;
     border: 1px solid transparent;
 }
-nav .nav-btn:hover{
+
+nav .nav-btn:hover,
+.btn:hover {
     background: transparent;
-    color:#58A9A5;
+    color: #58A9A5;
     border: 1px solid #58A9A5;
     transition: .5s;
 }
-.header-wrap{
-   display: flex;
-   justify-content: space-between;
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 105px;
+    color: #1C2323;
+}
+
+.text-p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+    color: #404242;
+    margin-top: 40px;
+}
+
+.btn {
+    display: inline-block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+    background: #58A9A5;
+    border-radius: 20px 20px 20px 0px;
+    padding: 15px 50px;
+    margin-top: 40px;
+    border:1px solid transparent;
+    cursor: pointer;
+}
+
+.header-box{
+    position: relative;
+    width: 50%;
+}
+.header-box img{
+   width: 110%;
+}
+.header-box img:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 0;
 }
